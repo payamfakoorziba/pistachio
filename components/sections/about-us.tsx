@@ -46,8 +46,8 @@ const AboutUs = () => {
           ))}
         </div>
         <p className="text-center text-pretty text-lg leading-8 max-w-screen-md">
-          We started Pistachio because we believe there's an opportunity for
-          modern, user-friendly software to create better experiences for
+          We started Pistachio because we believe there&apos;s an opportunity
+          for modern, user-friendly software to create better experiences for
           customers, and better business outcomes for owners and employees in
           the furniture industry. We look forward to partnering with you to move
           your business and the industry forward.
