@@ -38,6 +38,15 @@ const Navbar = () => {
           </Button>
         </li>
       </ul>
+      <Button
+        size="sm"
+        className="inline-flex md:hidden bg-[#379244] hover:bg-[#2a7035]"
+        asChild
+      >
+        <Link href="https://calendly.com/jake-pistachiosoftware/pistachio-intro-call?month=2024-04">
+          Get Started
+        </Link>
+      </Button>
     </nav>
   );
 };
