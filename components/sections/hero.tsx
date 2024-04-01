@@ -3,6 +3,7 @@
 import { ArrowRight } from "lucide-react";
 import { Button } from "../ui/button";
 import { motion, useScroll } from "framer-motion";
+import Link from "next/link";
 
 const Hero = () => {
   const { scrollYProgress } = useScroll();
@@ -32,13 +33,20 @@ const Hero = () => {
         transition={{ duration: 0.5, delay: 0.4 }}
         className="flex items-center gap-x-2"
       >
-        <Button>Get Started</Button>
+        <Button asChild>
+          <Link href="https://calendly.com/jake-pistachiosoftware/pistachio-intro-call?month=2024-04">
+            Get Started
+          </Link>
+        </Button>
         <Button
           variant="ghost"
           className="hover:bg-transparent hover:text-neutral-700 group transition duration-100 ease-in-out"
+          asChild
         >
-          Learn more
-          <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition" />
+          <Link href="#features">
+            Learn More
+            <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition" />
+          </Link>
         </Button>
       </motion.div>
       <motion.div

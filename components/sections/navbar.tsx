@@ -31,8 +31,10 @@ const Navbar = () => {
           </li>
         ))}
         <li>
-          <Button size="sm" className="bg-[#379244] hover:bg-[#2a7035]">
-            Get Started
+          <Button size="sm" className="bg-[#379244] hover:bg-[#2a7035]" asChild>
+            <Link href="https://calendly.com/jake-pistachiosoftware/pistachio-intro-call?month=2024-04">
+              Get Started
+            </Link>
           </Button>
         </li>
       </ul>
