@@ -36,12 +36,12 @@ const Features = () => {
         <div className="bg-gradient-to-r h-px w-1/2 mx-auto from-transparent via-white to-transparent my-4" />
         <p className="text-sm md:text-base text-center text-white mb-8 md:text-balance max-w-screen-md font-light">
           Empower your team, strengthen customer & vendor relationships, and
-          improve your bottom line with Pistachio's modern platform for order
-          management.
+          improve your bottom line with Pistachio&apos;s modern platform for
+          order management.
         </p>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-4 lg:gap-8">
           {features.map((feature, index) => (
-            <SpotlightCard>
+            <SpotlightCard key={feature.title}>
               <div className="flex flex-col items-center text-center gap-y-2 py-10 px-4">
                 <feature.Icon className="w-12 h-12 text-pistachio mb-4" />
                 <h4 className="text-xl font-semibold text-green-800 text-pretty">
