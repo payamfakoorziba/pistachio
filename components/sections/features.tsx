@@ -1,9 +1,6 @@
-"use client";
-
 import { ListVideo, Timer, TriangleAlert } from "lucide-react";
 import Container from "../container";
 import SpotlightCard from "../spotlight-card";
-import { motion } from "framer-motion";
 
 const features = [
   {
